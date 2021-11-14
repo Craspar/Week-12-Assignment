@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Written by Christopher Beck for Jason Banahan's ACSG 540 course-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Week 12 Assignment</title>
+
+</head>
+
+<body>
+    <h1>Exercise 9.10</h1>
+
+    <h3>Please take this opportunity to fill out the following form!</h3> <br />
+
+    <form method="post" action="9.10.php">
+        <!-- A text box to collect the user's name -->
+
+        <p>Enter your full name:</p>
+
+        <label for ="fullname"><b>Full Name:</b></label>
+        <input id = "fullname" name = "fullname" type = "text"><br />
+
+        <!-- Four checkboxes, one each for the following items: i. Four 25-watt light bulbs for $2.39 ii. Eight 25-watt light bulbs for $4.29 iii. Four 25-watt long-life light bulbs for $3.95 iv. Eight 25-watt long-life light bulbs for $7.49-->
+
+        <p>Select which set of light bulbs you would like to purchase:</p>
+        
+        <label> <input type = "checkbox" name = "4WLB" value = "2.39" />Four 25-watt light bulbs - $2.39</label><br />
+        <label> <input type = "checkbox" name = "8WLB" value = "4.29" />Eight 25-watt light bulbs - $4.29</label><br />
+        <label> <input type = "checkbox" name = "4LLB" value = "3.95" />Four 25-watt long-life light bulbs - $3.95</label><br />
+        <label> <input type = "checkbox" name = "8LLB" value = "7.49" />Eight 25-watt long-life light bulbs - $7.49</label><br />
+
+        <!-- A collection of three radio buttons that are labeled as follows: i Visa ii. Master Card iii. Discover-->
+
+        <p>Select your preferred payment type:</p>
+
+        <label><input type = "radio" name = "creditcard" value = "visa" />Visa</label><br />
+        <label><input type = "radio" name = "creditcard" value = "mstc" />Master Card</label><br />
+        <label><input type = "radio" name = "creditcard" value = "dcvr" />Discover</label><br />
+
+        <!-- Add a Submit and Reset button to the form-->
+
+        <input type = "submit" value="Submit Form" />
+        <input type = "reset" value = "Reset Form" /> 
+
+
+    </form>
+
+</body>
+
+</html>
