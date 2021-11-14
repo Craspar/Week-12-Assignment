@@ -61,9 +61,9 @@
         <?php
 
             if ($fourwlb != 0) print ("<tr> <td> Four 25-watt light bulbs</td> <td>$fourwlb</td> </tr>");
-            if ($eightwlb != 0) print ("<tr><td> Eight 25-watt light bulbs</td> <td>$eightwlb</td> </tr>");
-            if ($fourllb != 0) print ("<tr><td> Four 25-watt long-life light bulbs</td> <td>$fourllb</td> </tr>");
-            if ($eightllb != 0) print ("<tr><td> Eight 25-watt long-life light bulbs</td> <td>$eightllb</td> </tr>");
+            if ($eightwlb != 0) print ("<tr> <td> Eight 25-watt light bulbs</td> <td>$eightwlb</td> </tr>");
+            if ($fourllb != 0) print ("<tr> <td> Four 25-watt long-life light bulbs</td> <td>$fourllb</td> </tr>");
+            if ($eightllb != 0) print ("<tr> <td> Eight 25-watt long-life light bulbs</td> <td>$eightllb</td> </tr>");
 
             print ("<tr><td><b>Your Total is =></b></td><td></td><td><b>$total_price</b></td></tr>");
 
